@@ -1,7 +1,6 @@
 # ESTUDANDO MAVEN
 projeto desktop java maven
 
-<br/>
 ## Comando cria um projeto simples em mvn
 mvn archetype:generate -DartifacctId=produtos -DgroupId=br.com.alura.maven -DinteractiveMode=false -DarchetypeArtifacId=maven-
 archetype-quickstart
@@ -23,7 +22,7 @@ mvn surefire-reports:report
 mvn pmd:pmd
 <br/>
 <br/>
-## verificar validaÃ§Ãµes
+## verificar validações
 mvn pdm:check
 <br/>
 <br/>
@@ -35,6 +34,6 @@ mvn verify
 mvn clean
 <br/>
 <br/>
-## opÃ§Ãµes
+## opções
 -o offline
 ex. mvn -o teste
