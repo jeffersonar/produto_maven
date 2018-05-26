@@ -1,32 +1,40 @@
-#ESTUDANDO MAVEN
+# ESTUDANDO MAVEN
 projeto desktop java maven
 
 <br/>
-##Comando cria um projeto simples em mvn
+## Comando cria um projeto simples em mvn
 mvn archetype:generate -DartifacctId=produtos -DgroupId=br.com.alura.maven -DinteractiveMode=false -DarchetypeArtifacId=maven-
 archetype-quickstart
 <br/>
 <br/>
-##compilar
+## compilar
 mvn compile
 <br/>
-##testa
+<br/>
+## testa
 mvn test
 <br/>
-##relatorio de teste
+<br/>
+## relatorio de teste
 mvn surefire-reports:report
 <br/>
-##relatorio de teste pmd:pmd
+<br/>
+## relatorio de teste pmd:pmd
 mvn pmd:pmd
-#verificar validações
+<br/>
+<br/>
+## verificar validações
 mvn pdm:check
-#verifica todas as fases
+<br/>
+<br/>
+## verifica todas as fases
 mvn verify
-
-##limpar target
+<br/>
+<br/>
+## limpar target
 mvn clean
 <br/>
-
-#opções
+<br/>
+## opções
 -o offline
 ex. mvn -o teste
